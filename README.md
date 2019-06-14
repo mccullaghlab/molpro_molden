@@ -1,6 +1,10 @@
 # Python class to read in wavefunction information from a MOLDEN formatted output file
 
-
+NOTE that the following standard python libraries are required:
+numpy
+time
+tqdm
+numba
 
 ## molpro_molden.py
 This code contains the python class definition that reads in the MOLDEN formatted file and stores all necessary variables.  Also contains code to generate cube files.
